@@ -1,3 +1,4 @@
+# pylint: disable=unused-argument  # stand-in, signature matches the real module
 from fastapi import Header, HTTPException
 
 

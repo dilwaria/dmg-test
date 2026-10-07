@@ -1,3 +1,4 @@
+# pylint: disable=unused-argument,protected-access  # fakes mirror real signatures; fixture resets handler state
 from types import SimpleNamespace
 
 import grpc

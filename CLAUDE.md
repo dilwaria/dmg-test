@@ -8,6 +8,8 @@
 
 ## Commands
 - Test: `.venv/bin/python -m pytest -q tests`. Must pass before any commit.
+- Lint: `.venv/bin/python -m pylint services tests`. Must exit 0 before any commit. Config in .pylintrc.
+- Don't silence a pylint finding without a reason in the same comment or in .pylintrc.
 
 ## Done means
 - New or changed logic has a test that fails without the change.

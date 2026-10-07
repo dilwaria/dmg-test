@@ -1,0 +1,11 @@
+[MESSAGES CONTROL]
+# Errors and warnings only. Style (C) and refactor (R) checks are noise without a formatter policy.
+disable=C,R,
+        # pytest fixtures are passed by name.
+        redefined-outer-name,
+        # Batch handler catches broadly on purpose: one bad job must not abort the batch.
+        broad-exception-caught
+
+[TYPECHECK]
+# grpc.RpcError gains code() at runtime.
+generated-members=code
