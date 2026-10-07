@@ -1,0 +1,3 @@
+# Stand-in: replace with the real flag client. Off by default.
+def feature_flag(name, ctx=None):
+    return False
